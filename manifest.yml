@@ -1,0 +1,11 @@
+---
+applications:
+- name: SpringBootConfigClient
+  memory: 254M
+  instances: 1
+  path: ./build/libs/SpringBootConfigClient-0.0.1-SNAPSHOT.jar
+  timeout: 180
+
+  env: 
+    CONFIG_PASSWORD: "config"
+  

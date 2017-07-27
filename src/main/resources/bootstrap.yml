@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:   
+      name: demo1
+      uri: "http://localhost:9000"
+      username: config_client
+      password: config
+      lable: master
+      enabled: true
+  profiles:
+   active: dev
